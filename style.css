@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav img{
+    width: 40px;
+    height: 30px;
+}
+
+nav {
+    background-color: rgb(78, 230, 230);
+    display: flex;
+    height: 10vh;
+}
+
+nav .left-side{
+    padding: 10px;
+    flex: 50%;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side li{
+    display: inline;
+
+}
+
+nav .left-side ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color:white;
+    font-weight: 600;
+    align-items: center;
+}
+
+nav .right-side{
+    flex: 50%;
+    padding: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .right-side a{
+    text-decoration: none;
+    background-color: rgb(247, 127, 41);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+/* akhir navbar */
+
+.container .section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .section .left-side{
+    flex: 40%;
+    
+    
+}
+
+.container .section .right-side{
+    flex: 60%;
+}
+
+.container .section .right-side p{
+    color: rgb(156, 150, 156);
+}
+
+.container .section .right-side .ability{
+    display: flex;
+}
+
+.container .section .right-side .ability div{
+ flex: 1;
+ margin-top: 10px;
+}
+
+.ability div img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.container .section .right-side .found{
+    display: flex;
+    margin-top: 10px;
+}
+
+.container .section .right-side .found img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
