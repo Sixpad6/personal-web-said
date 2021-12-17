@@ -45,7 +45,8 @@ nav .right-side{
 
 nav .right-side a{
     text-decoration: none;
-    background-color: rgb(247, 127, 41);
+    background-color:rgb(247, 127, 41);
+    ;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -103,37 +104,42 @@ nav .right-side a{
 }
 
 .blog-form {
-    padding: 50px 0;
+    padding: 50px;
     display: flex;
     justify-content: center;
   }
   
   .blog-form .form-container {
-    width: 500px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: rgb(78, 230, 230); 
+    padding: 20px;
+    border-radius: 5px;
   }
   
   .blog-form .form-container h1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .blog-form form label {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 20px; 
+    font-weight: 500;
   }
   
   .blog-form form input,
   textarea,
   select {
     width: 100%;
-    font-size: 20px;
-    font-weight: 400;
+    background-color: rgb(214, 207, 207);
+    border: 1px solid rgb(158, 157, 156);
+    border-radius: 8px;
     padding: 8px;
     margin-top: 5px;
-    margin-bottom: 20px;
-    background: #f4f3f3;
-    border: 1px solid #c4c4c4;
-    border-radius: 8px;
+    margin-bottom: 10px;
+
   }
   
   .blog-form form textarea {
@@ -141,14 +147,13 @@ nav .right-side a{
   }
   
   .blog-form form .input-blog-image-group {
-    width: 100%;
+    width: 95%;
     font-size: 20px;
     font-weight: 400;
     padding: 8px;
     margin-top: 5px;
-    margin-bottom: 20px;
-    background: #f4f3f3;
-    border: 1px solid #c4c4c4;
+    background: rgb(214, 207, 207);
+    border: 1px solid rgb(158, 157, 156);
     border-radius: 8px;
     cursor: pointer;
   }
@@ -172,7 +177,7 @@ nav .right-side a{
     margin-top: 50px;
     padding: 8px 20px;
     font-size: 17px;
-    background: #ec4d37;
+    background: rgb(247, 127, 41);
     border-radius: 8px;
     border: none;
     color: #fff;
@@ -235,7 +240,7 @@ nav .right-side a{
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
-    background: #ec4d37;
+    background: rgb(247, 127, 41);
     color: #fff;
   }
   
